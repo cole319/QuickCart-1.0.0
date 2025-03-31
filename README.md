@@ -2,9 +2,11 @@
 
 <div align="center">
   <br />
-  <a href="https://youtu.be/DLeAPn5-TIA" target="_blank">
-    <img src="./banner.png" alt="Project Banner">
-  </a>
+    <img width="1437" alt="Screenshot 2025-03-31 " src="https://github.com/user-attachments/assets/8d508c87-a60a-4aa2-87cc-e38d36a8cbd9" />
+    <br/>
+    <img width="1435" alt="Screenshot 2025-03-31 at 7 12 54 PM" src="https://github.com/user-attachments/assets/31cb7586-ce10-423a-a0fd-c083d4bd8c03" />
+    <br/>
+    <img width="1436" alt="Screenshot 2025-03-31 at 7 13 30 PM" src="https://github.com/user-attachments/assets/f9177ff8-4519-44b8-b41e-7e2b8550a02e" />
   <br />
   <div>
     <img src="https://img.shields.io/badge/-Next.js-000?style=for-the-badge&logo=next.js" alt="Next.js" />
