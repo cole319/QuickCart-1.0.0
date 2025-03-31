@@ -69,7 +69,7 @@ export default function Navbar() {
         </div>
       </div>
       {mobileOpen && (
-        <nav className="md:hidden bg-white shadow-md">
+        <nav className="md:hidden bg-neutral-50 shadow-md">
           <ul className="flex flex-col p-4 space-y-2">
             <li>
               <Link href="/" className="block hover:text-red-500">
