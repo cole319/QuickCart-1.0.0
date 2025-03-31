@@ -30,17 +30,19 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white shadow">
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
-        <Link href="/" className="hover:text-blue-600">
-          <p className="text-3xl font-semibold">
-            Quick<span className="text-orange-500">Cart</span>
+        <Link href="/" className="hover:text-red-500">
+          <p className="text-3xl font-semibold text-slate-800">
+            Quick<span className="text-red-500">Cart</span>
           </p>
         </Link>
         <div className="hidden md:flex space-x-6">
-          <Link href="/">Home</Link>
-          <Link href="/products" className="hover:text-blue-600">
+          <Link href="/" className="hover:text-red-500">
+            Home
+          </Link>
+          <Link href="/products" className="hover:text-red-500">
             Products
           </Link>
-          <Link href="/checkout" className="hover:text-blue-600">
+          <Link href="/checkout" className="hover:text-red-500">
             Checkout
           </Link>
         </div>
@@ -48,7 +50,7 @@ export default function Navbar() {
           <Link href="/checkout" className="relative">
             <ShoppingCartIcon className="h-6 w-6" />
             {cartCount > 0 && (
-              <span className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs text-white">
+              <span className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs text-neutral-50">
                 {cartCount}
               </span>
             )}
@@ -70,17 +72,17 @@ export default function Navbar() {
         <nav className="md:hidden bg-white shadow-md">
           <ul className="flex flex-col p-4 space-y-2">
             <li>
-              <Link href="/" className="block hover:text-blue-600">
+              <Link href="/" className="block hover:text-red-500">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/products" className="block hover:text-blue-600">
+              <Link href="/products" className="block hover:text-red-500">
                 Products
               </Link>
             </li>
             <li>
-              <Link href="/checkout" className="block hover:text-blue-600">
+              <Link href="/checkout" className="block hover:text-red-500">
                 Checkout
               </Link>
             </li>

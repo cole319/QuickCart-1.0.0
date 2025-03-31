@@ -39,21 +39,32 @@ export const ProductDetail = ({ product }: Props) => {
         </div>
       )}
       <div className="md:w-1/2">
-        <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
+        <h1 className="text-3xl font-bold mb-4 text-slate-700">
+          {product.name}
+        </h1>
         {product.description && (
-          <p className="text-gray-700 mb-4">{product.description}</p>
+          <p className="text-slate-600 mb-4">{product.description}</p>
         )}
         {price && price.unit_amount && (
-          <p className="text-lg font-semibold text-gray-900">
+          <p className="text-lg font-semibold text-slate-700">
             ${(price.unit_amount / 100).toFixed(2)}
           </p>
         )}
-        <div className="flex items-center space-x-4">
-          <Button variant="outline" onClick={() => removeItem(product.id)}>
-            –
+        <div className="flex items-center space-x-4 mt-[2rem]">
+          <Button
+            variant="outline"
+            className="cursor-pointer border-b border-red-500 text-red-500"
+            onClick={() => removeItem(product.id)}
+          >
+            -
           </Button>
           <span className="text-lg font-semibold">{quantity}</span>
-          <Button onClick={onAddItem}>+</Button>
+          <Button
+            onClick={onAddItem}
+            className="bg-red-400 hover:bg-transparent hover:text-red-500 hover:border-[1.2px] hover:border-red-500 cursor-pointer"
+          >
+            +
+          </Button>
         </div>
       </div>
     </div>
