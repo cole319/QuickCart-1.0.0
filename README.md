@@ -16,29 +16,34 @@
 </div>
 
 
-## Tech Stack
+# QuickCart 1.0.0  
 
-- **Next.js 15** – For server components and modern routing
-- **Tailwind CSS v4** – For rapid, responsive styling using a CSS‑first configuration
-- **TypeScript** – For type safety and modern JavaScript features
-- **Stripe** – For product management and payment processing
-- **Zustand** – For lightweight client‑side state management
+## 📌 About  
+QuickCart 1.0.0 is a modern, full-stack e-commerce application designed for seamless online shopping. It features a **sleek UI, dynamic product interactions, real-time cart updates, and secure payments** powered by **Stripe**. Built with **Next.js 15**, it leverages **server components** for optimized performance, ensuring a fast and responsive shopping experience.  
 
-## Features
+---
 
-- **Dynamic Product Carousel:**  
-  A landing page featuring an auto‑cycling carousel that showcases your top products.
+## ⚙️ Tech Stack  
+- **Next.js 15** – Utilizes server components and modern routing for enhanced performance and SEO.  
+- **TypeScript** – Ensures type safety and maintainability.  
+- **Tailwind CSS v4** – Provides a highly customizable, responsive design with utility-first styling.  
+- **Zustand** – Handles lightweight, efficient client-side state management.  
+- **Stripe API** – Enables secure product management and payment processing.  
 
-- **Responsive Product Pages:**  
-  Detailed pages with interactive plus/minus buttons to adjust item quantities in the cart.
+---
 
-- **Real‑Time Cart State:**  
-  A live-updating cart icon in the navbar using Zustand.
+## 🚀 Features & Functionality  
+✅ **Dynamic Product Carousel** – Auto-cycling carousel showcasing featured products on the landing page.  
+✅ **Responsive Product Pages** – Interactive product pages with quantity adjustment buttons.  
+✅ **Real-Time Cart Updates** – Navbar cart icon updates instantly using Zustand.  
+✅ **Seamless Stripe Checkout** – Secure, frictionless checkout with Stripe integration.  
+✅ **Modern UI & UX** – Professional design inspired by shadcn components for a smooth user experience.  
 
-- **Seamless Stripe Checkout:**  
-  A secure checkout process powered by Stripe's API.
+---
 
-- **Modern UI:**  
-  A sleek, professional design built with Tailwind CSS v4 and shadcn‑inspired UI components.
+## 🔧 Setup & Installation  
 
-
+1️⃣ **Clone the repository:**  
+```bash
+git clone https://github.com/cole319/QuickCart-1.0.0.git
+cd QuickCart-1.0.0
