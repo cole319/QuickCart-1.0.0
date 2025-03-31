@@ -9,7 +9,8 @@ import {
 import { useCartStore } from "@/store/cart-store";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
-export const Navbar = () => {
+
+export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const { items } = useCartStore();
   const cartCount = items.reduce((acc, item) => acc + item.quantity, 0);
@@ -88,4 +89,4 @@ export const Navbar = () => {
       )}
     </nav>
   );
-};
+}
