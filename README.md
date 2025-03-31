@@ -21,22 +21,8 @@
   <br />
 </div>
 
-## 📋 Table of Contents
 
-1. [Introduction](#introduction)
-2. [Tech Stack](#tech-stack)
-3. [Features](#features)
-4. [Quick Start](#quick-start)
-5. [Code Snippets](#code-snippets)
-6. [Assets & More](#assets--more)
-
-## 🚀 Introduction
-
-In this video tutorial, you'll learn how to build a fully functional ecommerce platform using modern web technologies such as Next.js 15, Tailwind CSS v4, Stripe for payments, and Zustand for state management. This project focuses on building a sleek, responsive frontend with a secure payment flow—without using a backend database like Prisma, Postgres, or Neon.
-
-Watch the tutorial on [YouTube](https://youtu.be/YOUR_VIDEO_LINK).
-
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Next.js 15** – For server components and modern routing
 - **Tailwind CSS v4** – For rapid, responsive styling using a CSS‑first configuration
@@ -44,7 +30,7 @@ Watch the tutorial on [YouTube](https://youtu.be/YOUR_VIDEO_LINK).
 - **Stripe** – For product management and payment processing
 - **Zustand** – For lightweight client‑side state management
 
-## ⚡️ Features
+## Features
 
 - **Dynamic Product Carousel:**  
   A landing page featuring an auto‑cycling carousel that showcases your top products.
@@ -61,18 +47,4 @@ Watch the tutorial on [YouTube](https://youtu.be/YOUR_VIDEO_LINK).
 - **Modern UI:**  
   A sleek, professional design built with Tailwind CSS v4 and shadcn‑inspired UI components.
 
-## 👌 Quick Start
 
-### Prerequisites
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en/)
-- [npm](https://www.npmjs.com/)
-
-### Cloning the Repository
-
-Run the following commands in your terminal:
-
-```bash
-git clone https://github.com/yourusername/your-ecommerce-repo.git
-cd your-ecommerce-repo
