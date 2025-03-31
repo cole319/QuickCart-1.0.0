@@ -1,4 +1,4 @@
-# Full‑Stack Ecommerce Platform Tutorial
+# Full‑Stack Ecommerce Platform
 
 <div align="center">
   <br />
